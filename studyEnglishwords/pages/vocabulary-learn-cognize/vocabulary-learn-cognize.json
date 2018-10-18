@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "stars-component": "/components/stars-component/stars-component"
+    }
+}

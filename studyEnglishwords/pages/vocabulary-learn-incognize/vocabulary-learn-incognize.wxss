@@ -1,0 +1,32 @@
+/* pages/vocabulary-learn-incognize/vocabulary-learn-incognize.wxss */
+
+.icon-sound {
+    background-repeat: no-repeat;
+    background-image: url(//fanyi.bdstatic.com/static/translation/sprite/images/normal/index-sfa8e40da74_844b54f.png);
+    background-position: 0 -1018px;
+    height: 17px;
+    width: 19px;
+}
+
+.button-sp-area {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 90%;
+}
+
+.mini-btn {
+    margin-right: 5px;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.word {
+    font-weight: bold;
+    font-size: 25px;
+}
+.instance{
+    font-weight: bold;
+    font-size:20px;
+}

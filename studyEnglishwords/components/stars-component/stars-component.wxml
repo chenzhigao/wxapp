@@ -1,0 +1,9 @@
+<view class="stars">
+    <view class="title"> 
+        <image src="/images/icon/star.png"></image>
+        <image src="/images/icon/star.png"></image>
+        <image src="/images/icon/star.png"></image>
+        <image src="/images/icon/star.png"></image>
+        <image src="/images/icon/star.png"></image>
+    </view>
+</view>

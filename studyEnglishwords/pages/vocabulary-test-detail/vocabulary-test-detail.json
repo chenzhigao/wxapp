@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "vocabulary-test-translate-component": "/components/vocabulary-test-translate-component/vocabulary-test-translate-component",
+        "vocabulary-test-listen-component": "/components/vocabulary-test-listen-component/vocabulary-test-listen-component"
+    },
+    "navigationBarTitleText": "人教版高中词汇爆破"
+}

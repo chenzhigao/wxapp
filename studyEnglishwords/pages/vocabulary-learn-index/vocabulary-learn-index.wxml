@@ -1,0 +1,32 @@
+<view class="page">
+    <view class="weui-flex__item">
+        <view class="placeholder" style="text-align:center"><text class="word">English</text></view>
+    </view>
+    <view class="star-position">
+    <stars-component />
+    </view>
+    <view class="weui-flex">
+
+        <view class="weui-flex__item">
+            /:hachk/
+        </view>
+        <view class="weui-flex__item" bindtap="onAmerican">
+            美音
+            <icon class="icon-sound"></icon>
+        </view>
+        <view class="weui-flex__item">
+            /:hachk/
+        </view>
+        <view class="weui-flex__item" bindtap="onBritish">
+            英音
+            <icon class="icon-sound"></icon>
+        </view>
+    </view>
+    <view class="foot">
+        <view class="button-sp-area">
+            <button class="weui-btn" bindtap="onCognize" type="primary">认识</button>
+            <button class="weui-btn" bindtap="onIncognize" type="warn">不认识</button>
+            <button class="weui-btn" bindtap="onInaccurate" type="default">拿不准</button>
+        </view>
+    </view>
+</view>

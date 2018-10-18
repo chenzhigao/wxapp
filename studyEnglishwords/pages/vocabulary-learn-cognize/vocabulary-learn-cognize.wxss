@@ -1,0 +1,25 @@
+/* pages/vocabulary-learn-cognize/vocabulary-learn-cognize.wxss */
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 90%;
+}
+.mini-btn{
+    margin-right: 5px;
+}
+.content{
+    margin-top:30rpx;
+    padding-left: 20px;
+}
+.icon-sound {
+    background-repeat: no-repeat;
+    background-image: url(//fanyi.bdstatic.com/static/translation/sprite/images/normal/index-sfa8e40da74_844b54f.png);
+    background-position: 0 -1018px;
+    height: 17px;
+    width: 19px;
+    margin-left: 10rpx;
+}
+.word{
+    font-size: 30px;
+    font-weight: bold;
+}

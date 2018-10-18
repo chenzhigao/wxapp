@@ -1,0 +1,18 @@
+<!--pages/vocabulary-learn-cognize/vocabulary-learn-cognize.wxml-->
+<view class="page">
+    <view class="content">
+        <stars-component />
+    </view>
+    <view class="content">
+    <text class="word">am</text>
+        <icon class="icon-sound"></icon>
+        <view>vi.是，(用于第一人称单数现在时)</view>
+        <view>abbr.调频，调谐</view>
+        <view>n.人名</view>
+        <view>aux.(与v-ing连用工程现在进行时）</view>
+    </view>
+    <view class="button-sp-area">
+        <button catchtap="onTrue" class="weui-btn" type="primary">认对</button>
+        <button catchtap="onFalse" class="weui-btn" type="warn">认错</button>
+    </view>
+</view>

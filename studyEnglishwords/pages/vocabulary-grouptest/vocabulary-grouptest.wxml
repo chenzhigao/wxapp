@@ -1,0 +1,10 @@
+<!--pages/vocabulary-grouptest/vocabulary-grouptest.wxml-->
+<view class="page">
+    <view class="page__bd page__bd_spacing" style="margin-top:2rpx;text-align:center">
+        <text class="content_tip">共100个单词，已学30个，点击词汇记忆继续学习。</text>
+        <view class="button-sp-area">
+            <button catchtap="onGroupTest" class="weui-btn" type="warn">组测试</button>
+            <button catchtap="onReview" class="weui-btn" type="primary">复习</button>
+        </view>
+    </view>
+</view>

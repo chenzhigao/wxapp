@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/user/user",
+        "pages/vocabulary-learn-cognize/vocabulary-learn-cognize",
+        "pages/vocabulary-learn-index/vocabulary-learn-index",
+        "pages/vocabulary-test-detail/vocabulary-test-detail",
+        "pages/vocabulary-learn-incognize/vocabulary-learn-incognize",
+        "pages/vocabulary-learn-inaccurate/vocabulary-learn-inaccurate",
+        "pages/vocabulary-beforetest/vocabulary-beforetest",
+        "pages/vocabulary-learn/vocabulary-learn",
+        "pages/vocabulary-grouptest/vocabulary-grouptest"
+    ],
+    "tabBar": {
+        "color": "#ddd",
+        "selectedColor": "#3cc51f",
+        "backgroundColor": "#FFFFFF",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "images/icon/home.png",
+                "selectedIconPath": "images/icon/home1.png",
+                "text": "主页"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "images/icon/user1.png",
+                "selectedIconPath": "images/icon/user.png",
+                "text": "个人中心"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#09BB07",
+        "navigationBarTitleText": "一鑫教育",
+        "navigationBarTextStyle": "white"
+    },
+    "debug": true
+}

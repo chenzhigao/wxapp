@@ -1,0 +1,55 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                    <vocabulary-test-translate-component/>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                    <vocabulary-test-listen-component/>
+                </view>
+            </view>
+            <view class="weui-flex" style="margin-top:10rpx">
+                <view class="weui-flex__item" style="text-align:right">
+                    <image class="icon_lastornext" src="/images/icon/last.png"></image>
+                </view>
+                <view class="weui-flex__item">
+                </view>
+                <view class="weui-flex__item">
+                </view>
+                <view class="weui-flex__item">
+                    <image class="icon_lastornext" src="/images/icon/next.png"></image>
+                </view>
+            </view>
+            <view class="divLine"></view>
+            <view class="flag">
+                <view class="journey-container">
+                    <text class="journey">11</text>
+                </view>
+                <view class="journey-container">
+                    <text class="journey">12</text>
+                </view>
+                <view class="journey-container">
+                    <text class="journey">13</text>
+                </view>
+                <view class="journey-container" style="background-color:#A6A5A1">
+                    <text class="journey">14</text>
+                </view>
+                <view class="journey-container" style="background-color:#A6A5A1">
+                    <text class="journey">15</text>
+                </view>
+            </view>
+            <view class="button-sp-area">
+                <button catchtap="onSubmit" class="weui-btn" type="primary" plain="true">提交</button>
+            </view>
+        </view>
+    </view>
+</view>

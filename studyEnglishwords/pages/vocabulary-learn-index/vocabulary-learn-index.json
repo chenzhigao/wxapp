@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "人教版高中词汇爆破-第9册",
+    "usingComponents": {
+        "stars-component": "/components/stars-component/stars-component"
+    }
+}

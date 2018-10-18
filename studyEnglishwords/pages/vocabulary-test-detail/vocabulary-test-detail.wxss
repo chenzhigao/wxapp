@@ -1,0 +1,57 @@
+/* pages/vocabulary-test-detail/vocabulary-test-detail.wxss */
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__panel{
+    height: 60%;
+}
+.weui-tab__content{
+    padding-top: 60rpx;
+    /* text-align: center; */
+}
+.button-sp-area{
+    margin: 0 auto;
+    margin-top:400rpx;
+    padding-top: 0px;
+    width: 60%;
+}
+.icon_lastornext {
+    width: 70rpx;
+    height: 70rpx;
+}
+
+.divLine {
+    margin-top: 10rpx;
+    background: #e0e3da;
+    width: 100%;
+    height: 3rpx;
+}
+
+.journey-container{
+    display: flex;
+    margin-top: 50rpx;
+    background-color: #40CF26;
+    flex-direction:column;
+    align-items: center;
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 100%;
+    text-align:center;
+    margin-left: 10rpx;
+}
+
+.journey{
+    font-size:25rpx;
+    font-weight: bold;
+    color: #000000;
+}
+.flag{
+    display: flex;
+}
+
+

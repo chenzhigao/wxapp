@@ -1,0 +1,25 @@
+<!--pages/user/user.wxml-->
+<view class="user_info">
+    <view class="user_background">
+        <image class="user_logo" src="/images/6.png"></image>
+    </view>
+</view>
+
+<view class="user_info">
+    <text>用户名</text>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+        <view class="weui-cell__bd">账号</view>
+        <view class="weui-cell__ft">当前账号</view>
+    </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+        <view class="weui-cell__bd">到期时间</view>
+        <view class="weui-cell__ft">到期时间</view>
+    </view>
+</view>
+<view class="button-sp-area">
+    <button class="weui-btn" type="primary" plain="true" catchtap="toLogin">解除绑定</button>
+</view>

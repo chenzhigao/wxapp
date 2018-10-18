@@ -1,0 +1,13 @@
+/* pages/vocabulary-grouptest/vocabulary-grouptest.wxss */
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 90%;
+}
+.mini-btn{
+    margin-right: 5px;
+}
+.content_tip{
+    font-weight: bold;
+    font-size: 15px;
+}

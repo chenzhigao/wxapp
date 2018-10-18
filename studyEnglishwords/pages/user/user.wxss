@@ -1,0 +1,23 @@
+/* pages/user/user.wxss */
+.user_info {
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_logo {
+    width:200rpx;
+    height:200rpx;
+    margin-top:160rpx;
+    border-radius: 100%;
+}
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 60%;
+}
+.mini-btn{
+    margin-right: 5px;
+}

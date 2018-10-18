@@ -1,0 +1,23 @@
+// pages/vocabulary-test/vocabulary-test.js
+Page({
+
+    /**
+     * 页面的初始数据
+     */
+    data: {
+
+    },
+
+    /**
+     * 生命周期函数--监听页面加载
+     */
+    onLoad: function (options) {
+
+    },
+
+    onTestwords: function (event) {
+        wx.navigateTo({
+            url: "../vocabulary-test-detail/vocabulary-test-detail"
+        });
+    },
+})

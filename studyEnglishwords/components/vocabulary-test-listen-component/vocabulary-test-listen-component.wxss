@@ -1,0 +1,34 @@
+@import "../../weui.wxss";
+
+.weui-cells__title {
+    font-size: 40rpx;
+}
+
+.icon-sound {
+    background-repeat: no-repeat;
+    background-image: url(//fanyi.bdstatic.com/static/translation/sprite/images/normal/index-sfa8e40da74_844b54f.png);
+    background-position: 0 -1018px;
+    height: 17px;
+    width: 19px;
+    padding-left: 20rpx;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.title_number {
+    width: 70rpx;
+    height: 70rpx;
+}
+
+.title {
+    margin-top: 10rpx;
+    position: relative;
+}
+

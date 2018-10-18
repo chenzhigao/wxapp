@@ -1,0 +1,8 @@
+<view class="page">
+    <view class="page__bd page__bd_spacing" style="margin-top:2rpx;text-align:center">
+        <text class="content_tip">共100个单词，已学5个，点击词汇记忆继续学习。</text>
+        <view class="button-sp-area">
+            <button bindtap="onRecitewords" class="weui-btn" type="primary">词汇记忆</button>
+        </view>
+    </view>
+</view>
